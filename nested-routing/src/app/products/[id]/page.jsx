@@ -1,9 +1,10 @@
+
 export default async function ProductDetails({ params }) {
     const { id } = await params;
 
     return (
         <div>
-            <h1>Details of the product {id}</h1>
+            <h1 className="font-bold bg-blue-200">Details of the product {id}</h1>
         </div>
     );
 }
